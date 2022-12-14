@@ -36,13 +36,13 @@ bower_components
 
 # Compiled binary addons (https://nodejs.org/api/addons.html)
 build/Release
-
+client/build
+client/dist
 # Dependency directories
 node_modules/
+jspm_packages/
 client/node_modules/
 server/node_modules/
-jspm_packages/
-
 # TypeScript v1 declaration files
 typings/
 
@@ -71,18 +71,19 @@ typings/
 .yarn-integrity
 
 # dotenv environment variables file
+.env
+.env.test
 client/.env
-client/.env.test
-
+server/.env
 # parcel-bundler cache (https://parceljs.org/)
-client/.cache
+.cache
 
 # Next.js build output
-client/.next
+.next
 
 # Nuxt.js build / generate output
-client/.nuxt
-client/dist
+.nuxt
+dist
 
 # Gatsby files
 .cache/
